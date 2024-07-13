@@ -161,7 +161,7 @@ ul {
   letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--white);
-  min-width: 196px;
+  min-width: 169px;
   padding: 16px 32px;
   gap: 10px;
 
@@ -184,10 +184,12 @@ ul {
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .feature-list {
   display: flex;
@@ -249,6 +251,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * 48px);
+  row-gap: 48px;
 }
 .our-item {
   margin-top: 48px;
