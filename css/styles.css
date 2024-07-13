@@ -198,6 +198,14 @@ ul {
 .feature-item:not(:nth-child(4n)) {
   margin-right: 24px;
 }
+.feature-h {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
 .our-h {
   font-size: 20px;
   font-weight: 500;
